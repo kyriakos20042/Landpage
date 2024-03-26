@@ -1,51 +1,49 @@
 * {
+    font-size: 1vw;
     margin: 0;
     padding:0;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .flex-container div {
     flex: 1 1 0%;
-    padding-bottom: 30px;
+    padding-bottom: 3%;
 }
 .header {
     display:flex;
     background-color: #1F2937;
-    padding-top:0.5rem;
+    padding-top:1%;
 }
 .text {
     width: 40%;
-    padding-left:6em;;
+    padding-left:4%;
 }
 
 .links {
+    font-weight: bold;
     width: 60%;
-    text-align: center;
-    padding-right: 5rem;
+    text-align: right;
+    padding-right: 5%;
 }
 
 h5 {
-    font-size: 16px;
     color: #F9FAF8;
 }
 h4 {
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 24px;
-    padding-top: 4rem;
+    padding-top: 10%;
 }
 button {
+    font-weight: bold;
+    display: inline-block;
     background-color: #3882F6;
     color: #F9FAF8;
-    size:20px;
     cursor: pointer;
     border: none;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    size:20px;
-    padding: 0.2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
     border-radius: 8px;
 }
 .header p {
@@ -59,9 +57,9 @@ span {
 }
 img {
     margin-top: 3rem;
-    padding-left:2.5rem;
-    height: 150px;
-    width: 27rem;
+    padding-left:25%;
+    height: 11rem;
+    width: 30vw;
     
 }
 
@@ -72,10 +70,9 @@ h2 {
 .boxes {
     display: flex;
 }
-
 .box {
+    padding-left:10%;
     flex:25%;
-    padding:3rem;
 }
 .boxes img {
     box-sizing: border-box;
@@ -87,33 +84,34 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size: 20px;
-    padding-top:5rem;
-    padding-left:30%;
-    padding-bottom:5rem;
+    padding-top:2%;
+    padding-left:40%;
+    padding-bottom:2%;
 }
 .action {
-    margin-top: 5rem;
-    padding-left:20%;
+    padding:2%;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-right: 34.3%;
+    background-color: #3882F6;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 .action p {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    display: inline-block;   
     border-radius: 8px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     color: #F9FAF8;
     background-color: #3882F6;
-    display: inline-block;
 }
 .action button {
-    border:1px solid #F9FAF8;
-    margin-left: 5rem;
+    margin-left: 1.5%;
+    font-size: 0.8vw;
+    border:0.1vw solid #F9FAF8;
 }
 .copyright {
     text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #1F2937;
     color: #E5E7EB;
 }
